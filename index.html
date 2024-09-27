@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gransking av tillgängligheten för webbplatser och appar</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+
+        body {
+            font-family: Verdana, 'Trebuchet MS', Corbel, Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 1.5em;
+            width: 95%;
+            margin: 0 auto;
+            padding-top: 10px;
+            padding-bottom: 50px;
+            background-color:#eee ;
+        }
+
+        div#container {
+            width: 80%;
+            max-width: 500px;
+            margin: 0 auto;
+            padding-bottom: 40px;
+        
+        }
+        div.instruktion {
+            background-color: azure;
+            padding: 12px;
+        }
+        
+
+
+        h1 {
+            font-size: 1.8em;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-radius: 8px;
+            color: #fff;
+            line-height: normal;
+        }
+
+
+        h2 {
+            font-size: 1.4em;
+            padding: 6px;
+            margin-top: 50px;
+            background-color: #303030;
+/*            border-radius: 4px;*/
+            text-indent: 5px;
+            color: #fff;
+        }
+
+        
+        h3 {
+            font-size: 1.5em;
+            padding: 3px;
+            margin-top: 30px;
+            border-radius: 3px;
+        }
+
+        
+        h4 {
+            font-size: 1.2em;
+            padding: 0px;
+            margin: 0px;
+            padding-top: 15px; 
+        }
+        
+                em {font-weight: bold;
+        font-style: normal;}
+
+                
+        p.code {
+            font-family: monospace;
+            font-size: 1.1em;
+            text-indent: 30px;
+            color: dimgray;
+            padding: 0;
+            margin: 5px;
+        }
+
+        
+        a {
+            color: #08c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #000078;
+        }
+        
+        a:focus { background-color: yellow; border: 2px solid;}
+        
+           li {
+            margin-bottom: 8px;
+        }
+        
+        
+         /* Resp */
+
+        @media (max-width:640px) {
+            h1 {
+                font-size: 1.3em;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+            h3 {
+                font-size: 1.1em;
+            }
+            h4 {
+                font-size: 1em;
+            }
+        }
+        
+/*
+        div.ss {
+            width: 33%;
+            float: left;
+            text-align: center;
+        }
+
+        div.ss img {
+            max-width: 100%;
+        }
+
+
+        .assignment {
+            border: 1px solid #ccc;
+            margin: 1em 0 1em 0;
+            padding: 1em;
+            border-radius: 2px;
+        }
+
+        .assignment h3 {
+            margin-top: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .borderimage {
+            border: 1px solid #C3C3C3;
+        }
+
+        .fullImage {
+            width: 100%;
+            text-align: center;
+        }
+
+        .fullImage img {
+            max-width: 50%;
+        }
+*/
+
+        
+       
+/*
+
+        .todo {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        pre {
+            background: none repeat scroll 0% 0% rgb(243, 243, 247);
+            border: 1px solid rgb(222, 222, 227);
+            padding: 11px;
+            font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+            font-size: 12px;
+        }
+
+        .left {
+            width: 35%;
+            margin-right: 2%;
+            float: left;
+            text-align: center;
+        }
+
+        .left img {
+            width: 98%;
+            max-width: 98%;
+        }
+
+        .right {
+            width: 63%;
+            float: left;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .todo {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .illustration {
+            display: block;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .bildtext {
+            font-style: italic;
+            font-size: 12px;
+            font-weight: bold;
+            display: block;
+            text-align: center;
+        }
+
+     
+
+        .terminal {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .greenBox {
+            background: #2db34a;
+            border-radius: 6px;
+            transition-property: background, border-radius, letter-spacing;
+            transition-duration: .2s, 1s, 1s;
+            transition-timing-function: linear, ease-in;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+            margin: 0 auto;
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #fff;
+        }
+
+        .greenBox:hover {
+            background: #ff7b29;
+            border-radius: 50%;
+            letter-spacing: 6px;
+        }
+        
+*/
+        
+        
+    </style>
+</head>
+
+    
+    
+<!--    –––––––––––––––HTML STARTS––––––––––––––-->
+    
+    
+    
+<body>
+    <div id="container">
+
+        <h1>Gransking av tillgängligheten för webbplatser och appar</h1>
+<!-- <p>Webbriktlinjer.se har tyvärr tagit bort det enklare självtestet. Nu finns endast den mer omfattande officiella granskningen.</p>
+<p>Här kommer en sammanfattning av självtestet. Det som saknas är några exempel och hur Digitala myndigheten viktade frågorna. Du kan prova att sätta egna poäng. 5 poäng om webbplatsen/appen uppfyller kravet, 2,5 poäng om webbplatsen nästan lever upp till kravet. Och 0 poäng om kravet inte uppfylls. Det ger då 100 poäng för full pott. Webbplatsen bör uppnå 80 poäng.<br>
+Det här förenklade testet är naturligtvis inte lika exakt men ger en bra indikation för webbplatsen/appen. <br>
+        <a href="https://www.digg.se/webbriktlinjer/alla-webbriktlinjer">Samtliga webbriktlinjer hittar du här.</a><br>
+    <a href="https://www.digg.se/kunskap-och-stod/digital-tillganglighet/tillsynsmanual-for-granskning-av-webbsidor">Diggs tillsynsmanual.</a><br>
+        <a href="https://www.digin.nu">digin.nu</a> är en annan bra resurs, ett samarbete mellan fyra myndigheter, Digitala (<a href="https://www.digg.se">Digg</a>), delaktighet (<a href="https://www.mfd.se">MFD</a>), tillgängliga medier (<a href="https://www.mtm.se">MTM</a>) och Post- och Telestyrelsen (<a href="https://pts.se">PTS</a>).</p>
+        <p>
+Jag har valt att gruppera de frågor som jag anser hör ihop. Numret är frågans ursprungliga nummer från DIGG.</p>
+        
+<h2>Fem frågor har med språk och textinformation att göra</h2>
+        
+<h3>Rubriker hierarki. 4</h3>
+<p>Är det tydligt vad som är den största och viktigaste rubriken, underrubrik, mellanrubrik och så vidare. H1 som är störst och viktigast bör bara finnas en gång. Används H2, H3 och så vidare på ett bra och logiskt sätt?</p>
+<p>Precis som med det tillgängliga dokumentet, används taggarna korrekt?</p>
+<p>Om det är en webbplats du undersöker så kan du gå in koden och leta/söka efter H1, H2 … Till Firefox och Google Chrome finns det tillägg  (add-ons, extensions) som kan hjälpa dig att markera ut rubrikerna, till exempel “Highlight headings”.<br>
+<a href="https://addons.mozilla.org/en-US/firefox/">Firefox</a><br>
+<a href="https://chromewebstore.google.com/">Google Chrome</a>
+        </p>
+         -->
+<h3>Informativa rubriker. 17</h3>
+<p>Många synskadade (och andra) har som strategi att först läsa alla rubriker och sedan zooma in på det som är viktigt. Om du bara läser rubrikerna går det att få en bra överblick över innehållet? Hänger till viss del ihop med fråga 4 ovan, taggat korrekt och har en bra text?</p>
+        
+<h3>Tydliga länktexter. 13</h3>
+<p>Om du bara läser texten för länkarna går det att förstå var du hamnar? Undvik länktexter som “klicka här”, “läs mer” och liknande. De säger ingenting, då måste användaren backa och läsa det som finns före eller efter länken för att förstå vart länken leder. Eller klicka på länken på vinst och förlust.</p>
+<p>En vanlig strategi när en synskadad kommer till en webbplats är att gå igenom alla länkar för att få en överblick och snabbare komma till rätt plats. Då måste länkarna ha bra texter.</p>
+<p>Tydliga länkar bör kompletteras med en sökfunktion, gärna att “Sök” också klarar felstavade ord och synonymer.</p>
+        
+<h3>Begripligt språk. 14</h3>
+<p>Klarspråk är ett krav för offentliga webbplatser. Lättläst bara där det behövs.</p>
+        
+<h3>Lyft fram det viktigaste. 15</h3>
+<p>Använda rubriker, ingress, sammanfattning och så vidare. Både med ord och typografi göra det tydligt och klart. Samma som för det tillgängliga dokumentet. Tydligt vad som är vad, lätt att hitta det viktigaste och så vidare.</p>
+        
+<h2>Innehåll</h2>
+<h3>E-tjänster. 11</h3>
+<p>Är de tillgängliga och fungerar? Vad krävs för att de ska fungera, är det tydligt vad som krävs? </p>
+<p>Legitimation enbart med Bank-ID? Betalning endast med Klarna?
+Digitala blanketter som till exempel pdfer, är de tillgängliga och fungerar?</p>
+
+<h3>Kontaktinformation. 16</h3>
+<p>Är det tydligt? Hur hittar jag kontaktinformationen? 
+Finns det alternativ? Chat, epost (är det en länk eller formulär), telefon … Är det särskilda tider som gäller?</p>
+<p>Det måste finnas alternativ för offentlig service (från sommaren 2025 för privata aktörer).</p>
+
+<h2>Underlätta för personer med synnedsättning</h2>
+<h3>Ledtexter till formulär. 7</h3>
+<p>När du ska fylla i ett formulär är det tydligt vad som förväntas? Både vad gäller fältens namn och presentationen. Varje fält har ofta en liten rubrik, är det tydligt vad den innebär och var den är placerad?</p>
+<p>Det ska inte vara fler fält än nödvändigt men det ska fortfarande vara tydligt. Det har blivit bättre men det är fortfarande flera som frågar efter personnummer fastän det inte behövs.</p>
+<p>Bara “Namn” är för otydligt men det är bara ett fält. För- eller efternamn? I vilken ordning? Kanske det är användarnamn? Bättre då att ha två fält, förnamn och efternamn. Fler fält men tydligare.</p>
+<p>Ordningen på fälten, till exempel så förväntar jag mig lösenord efter användarnamn. Postnummer ska vara mellan gatuadress och ort, precis som när jag skriver adressen på ett vykort. </p>
+
+<h3>Tydliga kontraster. 9</h3>
+<p>Är kontrasten tillräcklig mellan texten och bakgrunden?</p>
+<p>Det finns flera tjänster som kan hjälpa till med det. Sök på wcag color contrast så kommer det upp flera webbplatser att välja mellan.</p>
+<p>Text på bild kan vara svårare att bedöma. Efter ett tag så lär man sig.
+Det finns också flera webbplatser där du kan testa för olika former av nedsatt färgseende. I Photoshop kan du testa för röd-grön färgblindhet men det finns fler varianter (även om de är sällsynta).</p>
+
+<h2>Visuell design</h2>
+<h3>Konsekvent navigation och struktur. 5</h3>
+<p>Knappar, länkar, menyer … Är placering, utseende, namn konsekvent?
+Fungerar navigeringen på samma sätt? Sök, hjälp, meny … är de placerade på samma ställe? Ser likadana ut. Går det att se vad som är knappar, länkar och bara dekoration?</p>
+<p>Webbplatser och appar som byggs på allteftersom blir ofta efter en tid ganska röriga, som Moodle. Allt fler börjar titta på designsystem för att rensa upp och bli mer enhetliga.</p>
+<p>Storbritannien har kommit ganska långt, de har skapat ett designsystem för sina myndigheter: <a href="https://design-system.service.gov.uk/">design-system.service.gov.uk</a><br>
+<em>"Styles"</em> känns säkert bekant, det är färger, typsnitt med mera.<br>
+<em>"Components"</em>, då har de kombinerat delar från styles till en färdig liten enhet, till exempel knappar och felmeddelanden.<br>
+<em>"Patterns"</em> är större delar, med flera components så skapas till exempel ett formulär för betalning.</p>
+<p>En del liknar det med hur vi är uppbyggda biologiskt, små beståndsdelar som tillsammans bildar större delar; styles som atomer, components som molekyler och patterns som organismer.</p>
+
+<h3>Klickbara ytor. 8</h3>
+<p>Är länkar, knappar och andra interaktiva ytor (till exempel start och stopp knappar) tillräckligt stora och tydliga? Är det tydligt vilka ytor som det går att interagera med? Är det tillräckligt stort avstånd mellan ytorna, minimera risken att klicka fel?</p>
+
+<h2>Underlätta för de som behöver (vill) anpassa webbsidan (appen)</h2>
+<h3>Zooma. 1</h3>
+<p>Kan jag zooma in och ut? Förstora/förminska efter behov?<br>
+De flesta webbläsare gör det genom ctrl eller cmd och + eller -. 0 (noll) bör göra att du kommer tillbaka ursprungsstorleken.</p>
+<p>Flödar texten om eller kommer olika objekt att täcka för varandra?
+För en app så ska den följa de inställningar jag gjort som större/mindre text, dark eller light mode. </p>
+
+<h3>Anpassa till små skärmar. 3</h3>
+<p>Fungerar webbplatsen/appen med olika skärmstorlekar? Större skärm till dator, telefon med en mindre skärm. </p>
+<p>Fungerar det oavsett hur jag håller telefonen? Vertikalt eller horisontellt?</p>
+
+<h3>Navigera med tangentbord. 6</h3>
+<p>Många kan inte använda mus eller styrplatta utan använder tangentbord eller någon annan form av knappar.</p>
+<p>Med de flesta webbläsare kan du använda tabb för att hoppa från länk till länk. Retur/Enter för att aktivera länken. Shift + tabb för att gå bakåt bland länkarna.
+Skulle det inte fungera så kan du nästan alltid aktivera den här funktionen i webbläsarens inställningar.</p>
+<p>Om du har ett tangentbord som du kan koppla till din telefon eller läsplatta så är det här också ett bra sätt att testa appar.</p>
+
+<h3>Fokus vid tangentbordsnavigering. 12</h3>
+<p>Om ovanstående fungerar så måste det också synas vilken del av webbplatsen som är i fokus.</p>
+<!-- <p>Om du provar min webbsida: <a href="https://intedum.se/mikael/">intedum.se/mikael</a> så får den länk som är i fokus en rödaktig bakgrund och en blå ram runt sig.</p> -->
+
+<h2>Komplettera textinnehåll</h2>
+<h3>Ljud, bild, video som komplement. 10</h3>
+<p>Ibland är en bild bättre än många ord. För många med läs- och skrivsvårigheter kan bilder, ljud eller video stötta.</p>
+<p>Om innehållet är video så ska den också syntolkas. Du kan testa på svtplay, sök på syntolkning.</p>
+
+<h3>Textade filmer. 18</h3>
+<p>Video (och ljud) behöver också finnas som text. Inte bara för de som har en hörselnedsättning. Det kan ju också vara som så att miljön inte tillåter ljud.</p>
+<p>Ljud, bild och video ska då också ha ett text-alternativ. Kom ihåg alt-texten som du gjorde till det tillgängliga dokumentet.</p>
+
+<h2>Övrigt</h2>
+<h3>PDF:er (dokument). 19</h3>
+<p>Dokument ska vara tillgängliga. Se förra momentet om tillgängliga dokument.</p>
+
+<h3>Captcha. 2</h3>
+<p>Används av en del för att få skicka ett formulär eller logga in. Ska undvikas och börjar tack och lov bli alltmer ovanligt. Med en synnedsättning är det i princip omöjligt.</p>
+<p>Polisen införde tyvärr Captcha under kort period när det var som mest kaos med att boka tid för nytt pass. </p>
+        
+<h3>Min egen rubrik</h3>
+<p>Det finns naturligtvis mycket mer men dessa 19 ger en bra översikt som stämmer ganska väl med Diggs mer omfattande tillsynsmanual. </p>
+        <p>Du har säkert någon egen fråga du kan lägga till här.</p>
+
+    </div>
+</body>
+</html>
